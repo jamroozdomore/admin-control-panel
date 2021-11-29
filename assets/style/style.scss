@@ -14,7 +14,7 @@ li{
 }
 .top_nav{
     box-shadow:0 5px 10px 0 rgba(0,0,0,0.4);
-    background-image: url("/assets/img/aside_back1.png");
+    background-image: url("/assets/img/side_bg.png");
    @include parallex()
 }
 #burger{
@@ -23,7 +23,7 @@ li{
 .offcanvas-body{
     width:100%;
         height:95vh;
-        background-image: url("/assets/img/aside_back1.png");
+        background-image: url("/assets/img/side_bg.png");
         @include parallex();
     aside{
         overflow: hidden;
@@ -60,7 +60,7 @@ li{
 }
 .aside_nav{
         display: flex;
-        background-image:url("/assets/img/image4.jpeg");
+        background-image:url("/assets/img/main_bg.jpeg");
         height: 94vh;
         @include parallex();
         background-blend-mode: darken;
@@ -69,7 +69,7 @@ li{
         overflow: hidden;
         width: 200px;
         height:94vh;
-        background-image: url("/assets/img/aside_back1.png");
+        background-image: url("/assets/img/side_bg.png");
         @include parallex();
         }
     ul{
